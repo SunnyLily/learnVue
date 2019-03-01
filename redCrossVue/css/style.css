@@ -1,0 +1,558 @@
+*{padding:0;margin:0;text-decoration:none;list-style:none;font-family:"微软雅黑";}
+a{
+	text-decoration: none;
+	color:#333;
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*header begin*/
+header{
+	width:1000px;
+	height:212px;
+	position:relative;
+	background: url(../images/header.jpg) no-repeat center center;
+	overflow:hidden;
+}
+.search_con{
+	width: 240px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin-top: 80px;
+    margin-left: 600px;
+    position: relative;
+    background: white;
+    overflow:hidden;
+}
+.search_con img{
+	position: absolute;
+    top: 3px;
+    left: 0;
+    z-index: 9999999;
+    width: 25px;
+    height: 25px;
+}
+.search_con input{
+	margin-left: 30px;
+    height: 28px;
+    border: none;
+    width: 100%;
+}
+.ewm_con{
+	width:100px;
+	position:absolute;
+	top: 50px;
+    right: 30px;
+}
+.ewm{
+	width:88px;
+	height:88px;
+	display:block;
+	border:1px solid #ddd;
+	margin:0 auto;
+}
+.ewm_con p{
+	margin-top:10px;
+	text-align:center;
+}
+/*header end*/
+
+/*middle begin*/
+.mid_con_lf,.mid_con_rt{
+	float:left;
+}
+.mid_con_lf{
+	width:180px;
+	min-height:1px;
+}
+.mid_con_lf ul li{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border-bottom:1px solid #e0e0e0;
+}
+.mid_con_lf ul li a{
+	display:block;
+}
+.mid_con_lf ul li a.active{
+	color:#fb0202;
+}
+.mid_con_lf ul li img{
+	float:right;
+	margin-top:16px;
+}
+.mid_con_rt{
+	margin-left:20px;
+	width:800px;
+}
+
+/*middle end*/
+/*footer begin*/
+footer{
+	margin-top:15px;
+}
+.friendLink{
+	border-bottom:1px solid #ddd;
+}
+.friendLink ul{
+	display: -webkit-flex;
+	display:flex;
+	justify-content: space-around;
+}
+.friendLink ul li{
+	font-size:14px;
+	line-height:40px;
+	text-align:center;
+}
+.copyright{
+	padding:10px 0;
+	display:-webkit-flex;
+	display:flex;
+	justify-content: space-around;
+}
+.copyright p{
+	font-size:14px;
+	line-height:1.5;
+	color:#666;
+	text-align:center;
+}
+/*footer end*/
+/*中间部分导航 begin*/
+.mid_con_nav {
+	margin:115px auto;
+}
+.mid_con_nav ul{
+	display:flex;
+	display:-webkit-flex;
+	justify-content:space-around;
+}
+.mid_con_nav ul li{
+	text-align: center;
+}
+.mid_con_nav ul li img{
+	width:70px;
+	height:70px;
+	display: block;
+	margin:0 auto;
+}
+.mid_con_nav ul li p{
+	height:80px;
+	line-height: 80px;
+}
+.mid_bt_nav{
+	background:#eee;
+	height:80px;
+	line-height: 80px
+}
+.mid_bt_nav img{
+	vertical-align: middle;
+	width:30px;
+}
+.mid_bt_nav ul li{
+	float:left;
+	margin:0 17px;
+}
+/*中间部分导航 end*/
+
+/*图片文字列表 begin*/
+.list_img_wd{
+	width:800px;
+	margin-top:15px;
+}
+.list_img_wd .side_pic{
+	display:block;
+	float:left;
+	width:200px;
+	height:133px;
+}
+.list_img_wd .side_pic img{
+	width:200px;
+	height:133px;
+}
+.side_wd{
+	float:left;
+	width:585px;
+	margin-left:15px;
+}
+.side_wd_sm{
+	width:435px;
+}
+.side_wd_tit{
+	font-size:16px;
+	font-weight:bold;
+	color:#fb0202;
+	height:40px;
+	line-height:40px;
+}
+.side_wd_tit a{
+	color:#fb0202;
+	float:right;
+}
+.side_wd_detail{
+	font-size: 14px;
+    line-height: 1.5;
+    height: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+}
+/*图片文字列表 end*/
+/*核心业务 begin*/
+.btn_con{
+	text-align:center;
+}
+.btn_con .red_btn{
+	background:#e61920;
+	color:white;
+	padding:5px 25px;
+	font-size:14px;
+	border-radius: 5px;
+}
+.btn_con .border_btn{
+	border: 1px solid #ddd;
+    padding: 5px 20px;
+    color: #e61920;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.side_slider_con{
+	width:350px;
+	height:175px;
+	float:left;
+}
+.side_slider_con .bd ul li img{
+	width:350px;
+	height:175px;
+}
+.mid_con_rt_top{
+	margin-top:15px;
+}
+.news_img_con{
+	margin-top:15px;
+}
+.mid_con_rt_btm{
+	margin:30px 0;
+}
+.mid_con_rt_btm a{
+	margin:50px;
+}
+.mid_con_rt_btm img {
+	width:150px;
+	height:150px;
+	vertical-align:middle;
+}
+.mid_con_rt_btm a span{
+	color:#e61920;
+	font-size:14px;
+}
+.organDonation{
+	border:1px solid #ddd;
+	margin-top:15px;
+	padding:60px;
+}
+.organDonation h3{
+	font-size:26px;
+	line-height:2;
+	text-align:center;
+	margin-bottom:30px;
+}
+.submit{
+	font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #acacac;
+    background: #e7e2e5;
+    width: 130px;
+    height: 40px;
+    margin: 30px auto;
+    display: block;
+}
+/*核心业务 end*/
+/*图片列表 begin*/
+.img_item{
+	float: left;
+    width: 185px;
+    margin-left: 15px;
+}
+.img_item img{
+	display:block;
+	margin:0 auto;
+	width:100%;
+}
+.img_item p{
+	line-height:40px;
+	font-size:14px;
+	text-align:center;
+}
+/*图片列表 end*/
+/*分页 begin*/
+.pagination{
+	text-align:center;
+	margin:15px 0;
+	font-size:14px;
+}
+.pagination a{
+	margin:0 5px;
+}
+/*分页 end*/
+
+article{
+	margin:10px 0;
+}
+.redwd{
+	color:#fb0202;
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+}
+article p{
+	text-indent:2rem;
+	font-size:16px;
+	line-height:1.5;
+}
+
+/*募捐明细 救助明细 begin*/
+.listDetail_tit{
+	font-size:24px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+}
+.listDetail_con table tr th,
+.listDetail_con table tr td{
+	width:600px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	color:#666;
+}
+.listDetail_con table tr td{
+
+}
+.listDetail_con table tr th{
+	font-weight:bold;
+}
+/*募捐明细 救助明细 end*/
+
+/*会员及志愿者 begin*/
+.hy_zyz_con h4{
+	color:#fb0202;
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #fb0202;
+}
+.protocol h3{
+	font-size: 20px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.protocol p{
+	font-size:16px;
+	line-height:1.5;
+	padding:0 30px;
+}
+.protocol a{
+	width: 100px;
+    height: 30px;
+    line-height:30px;
+    text-align:center;
+    font-size:14px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #acacac;
+    background: #e7e2e5;
+    border-radius: 5px;
+}
+.application_con{
+	font-size:16px;
+	margin:0 auto;
+}
+.apply_tab ul li{
+	width:49%;
+	text-align:center;
+	display:inline-block;
+	margin:20px 0;
+}
+.apply_tab_item{
+	border:1px solid #ddd;
+	padding:0 100px 30px;
+}
+.unit{
+	display:none;
+}
+.apply_tab_item h3{
+	font-size: 22px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.form_item{
+	line-height:40px;
+	margin-top:10px;
+}
+.form_item label{
+	display: inline-block;
+    width: 120px;
+    text-align:right;
+}
+.form_item input[type=text],
+.form_item input[type=date]{
+	width:260px;
+	height:30px;
+}
+.form_item textarea{
+	width:258px;
+	height:100px;
+	vertical-align: middle;
+}
+.form_item em{
+	color:#fb0202;
+}
+.form_item span{
+	color:#666;
+	font-size:14px;
+}
+.form_item button{
+	width:80px;
+	height:30px;
+	display:block;
+	margin:20px auto 0;
+}
+.form_item .down_up{
+
+}
+/*会员及志愿者 end*/
+/*图片及视频 begin*/
+.img_list_con{
+	display:-webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	margin:20px auto;
+}
+.img_list_item{
+	width:230px;
+	height:125px;
+}
+.img_list_item img{
+	width:230px;
+	height:125px;
+}
+/*图片及视频 end*/
+/*我要捐款 begin*/
+.pay_select{
+
+}
+.pay_select_item{
+	float: left;
+    width: 150px;
+    height: 150px;
+    position:relative;
+    margin:50px 10px;
+}
+.pay_select_item img{
+	width:70px;
+	height:70px;
+	display:block;
+	margin:15px auto;
+}
+.pay_select_item p{
+	text-align: center;
+}
+.pay_select_item:first-child{
+	margin-left:130px;
+}
+.zfb_warn,
+.scene_warn{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	font-size:14px;
+	color:white;
+	display: none;
+	border-radius: 10px;
+}
+.zfb_warn{
+	background: #00a2ea;
+}
+.zfb_warn p{
+	padding:10px;
+	line-height:1.5;
+	text-align:left;
+}
+.zfb_warn a{
+	border: 1px solid #fff;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    display: block;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center
+}
+.scene_warn{
+	background: #ff9700;
+}
+.scene_warn p{
+	padding:10px;
+	line-height:1.5;
+	text-align:left;
+}
+.dash{
+	width:900px;
+	border:1px dashed #ddd;
+}
+.money_select{
+	float:left;
+	width:230px;
+	margin:30px;
+}
+.money_select_item{
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+}
+.money_select_item span{
+	display: inline-block;
+	width:70px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	border:1px solid #bbbbbb;
+}
+input[type=radio]{
+	-webkit-appearance:none;
+	width:15px;
+	height:15px;
+	border-radius: 50%;
+	border:1px solid #bbbbbb;
+	margin:0 8px;
+}
+input[type=radio]:checked{
+	background: #666;
+}
+.money_select_item input[type=text]{
+	width: 87px;
+    height: 31px;
+    border:none;
+    border-bottom:1px solid #bbb;
+}
+.donate_con{
+	padding:0 200px;
+}
+.donate_con input[type=text]{
+	border:none;
+    border-bottom:1px solid #bbb;
+}
+/*我要捐款 end*/
